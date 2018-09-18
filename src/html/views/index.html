@@ -1,0 +1,31 @@
+<% var data = {
+  title: "Test"
+}; %>
+<%= _.template(require('./../template/header.html'))(data) %>
+
+<p>text</p>
+<h1>
+  It's working!
+</h1>
+
+<ul>
+  <li>
+    need upgrade webpack config!!!
+    <ul>
+      <li>
+        watch ! live-reload
+      </li>
+      <li>
+        for fonts
+      </li>
+      <li>
+        for images
+      </li>
+      <li>
+        speed, optimization, sass settings
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<%= _.template(require('./../template/footer.html'))(data) %>
